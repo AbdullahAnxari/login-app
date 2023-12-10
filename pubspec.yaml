@@ -1,0 +1,46 @@
+name: login_app
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  google_fonts: ^6.1.0
+  flutter_native_splash: ^2.3.5
+  get: ^4.6.6
+  liquid_swipe: ^3.1.0
+  animated_splash: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# flutter_native_splash:
+#   color: "#ffffff"
+#   image: assets/logo-development.png
+#   branding: assets/branding-development.png
+#   color_dark: "#121212"
+#   image_dark: assets/logo-development.png
+#   branding_dark: assets/branding-development.png
+#   android_12:
+#     image: assets/logo-development.png
+#     icon_background_color: "#ffffff"
+#     image_dark: assets/logo-development.png
+#     icon_background_color_dark: "#121212"
+#   web: false
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/delivery.jpg
